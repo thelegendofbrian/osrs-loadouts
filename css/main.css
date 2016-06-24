@@ -1,20 +1,113 @@
 @font-face {
-  font-family: 'Runescape';
-  src: url('Runescape.eot?#iefix') format('embedded-opentype'),  url('Runescape.otf')  format('opentype'),
-	     url('Runescape.woff') format('woff'), url('Runescape.ttf')  format('truetype'), url('Runescape.svg#Runescape') format('svg');
+  font-family: 'Runescape Chat';
+  src: url('runescape-chat.eot?#iefix') format('embedded-opentype'),  url('runescape-chat.otf')  format('opentype'),
+	     url('runescape-chat.woff') format('woff'), url('runescape-chat.ttf')  format('truetype'), url('runescape-chat.svg#Runescape') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Runescape Chat Bold';
+  src: url('runescape-chat-bold.eot?#iefix') format('embedded-opentype'),  url('runescape-chat-bold.otf')  format('opentype'),
+	     url('runescape-chat-bold.woff') format('woff'), url('runescape-chat-bold.ttf')  format('truetype'), url('runescape-chat-bold.svg#Runescape') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Runescape Large';
+  src: url('runescape-large.eot?#iefix') format('embedded-opentype'),  url('runescape-large.otf')  format('opentype'),
+	     url('runescape-large.woff') format('woff'), url('runescape-large.ttf')  format('truetype'), url('runescape-large.svg#Runescape') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-	background-color: #483f33;
-	color: #ff981f;
-	font-family: 'Runescape';
+	background-color: black;
+	color: black;
+	font-family: 'Runescape Chat';
 	font-size: 16px;
-	text-shadow: 1px 1px black;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
-div.gear-hierarchy {
+h1 {
+	color: #ded6ab;
+	font-family: 'Runescape Large';
+	font-size: 48px;
+	text-shadow:	2px 2px 4px black,
+					2px -2px 4px black,
+					-2px 2px 4px black,
+					-2px -2px 4px black;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: black;
+	font-family: 'Runescape Large';
+	font-size: 32px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+h3 {
+	color: black;
+	font-family: 'Runescape Chat Bold';
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.kril {
+	background:url('../images/kril-cropped.png') no-repeat left top;
+	height: 145px;
+	width: 100%;
+	left: 220px;
+	top: 0px;
+	position: absolute;
+}
+
+.page-wrap {
+	background:url('../images/bg2.jpg') repeat-y center top;
+	margin:0 auto;
+	overflow-y:hidden;
+	padding:0 50px;
+	width:815px;
+}
+
+.header {
+	margin-left: 85px;
+}
+
+.content {
+	/*top: 100px;*/
+	background:url('../images/backdrop_745.gif') repeat-y top center;
+	padding:50px 51px;
+	position:relative;
+}
+	
+.content:before, .content:after {
+	background:url('../images/backdrop_765_top.gif') no-repeat center top;
+	content:'';
+	height:50px;
+	left:0;
+	position:absolute;
+	top:-11px;
+	width:100%;
+}
+
+.content:after {
+	background:url('../images/backdrop_765_bottom.gif') no-repeat center bottom;
+	bottom:-11px;
+	top:auto;
+}
+
+.loadout {
+	margin-bottom: 10px;
+}
+
+.gear-hierarchy {
 	background-repeat: no-repeat;
 	height: 27px;
 	margin-top: 2px;
@@ -22,67 +115,75 @@ div.gear-hierarchy {
 	padding-top: 10px;
 }
 
-div.main-hand {
+.main-hand {
 	background-image: url('../images/icons/main-hand.png');
 }
 
-div.spec-weapon {
+.spec-weapon {
 	background-image: url('../images/icons/spec-weapon.png');
 	padding-top: 5px;
 	height: 22px;
 }
 
-div.main-hand-switch {
+.main-hand-switch {
 	background-image: url('../images/icons/main-hand-switch.png');
 }
 
-div.shield {
+.shield {
 	background-image: url('../images/icons/shield.png');
 }
 
-div.shield-switch {
+.shield-switch {
 	background-image: url('../images/icons/shield-switch.png');
 }
 
-div.helmet {
+.helmet {
 	background-image: url('../images/icons/helmet.png');
 }
 
-div.body {
+.body {
 	background-image: url('../images/icons/body.png');
 }
 
-div.legs {
+.legs {
 	background-image: url('../images/icons/legs.png');
 }
 
-div.boots {
+.boots {
 	background-image: url('../images/icons/boots.png');
 }
 
-div.gloves {
+.gloves {
 	background-image: url('../images/icons/gloves.png');
 }
 
-div.cape {
+.cape {
 	background-image: url('../images/icons/cape.png');
 }
 
-div.amulet {
+.amulet {
 	background-image: url('../images/icons/amulet.png');
 }
 
-div.ring {
+.ring {
 	background-image: url('../images/icons/ring.png');
 }
 
-div.ammo {
+.ammo {
 	background-image: url('../images/icons/ammo.png');
 }
 
-div.notes > ul {
+.notes > ul {
 	margin-top: 5px;
 }
-div.notes > h3 {
+.notes > h3 {
 	margin-bottom: 5px;
+}
+
+.bottom-marg {
+	margin-bottom: 35px;
+}
+
+.top-marg {
+	margin-top: 90px;
 }
