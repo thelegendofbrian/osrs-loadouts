@@ -59,6 +59,15 @@ h3 {
 	font-weight: normal;
 }
 
+.anchorjs-link {
+	font-family: 'anchorjs-icons';
+	color: black !important;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: blue;
+}
+
 .kril {
 	background:url('../images/kril.png') no-repeat center top;
 	height: 145px;
