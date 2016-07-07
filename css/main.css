@@ -125,10 +125,14 @@ hr {
 
 .gear-hierarchy {
 	background-repeat: no-repeat;
-	height: 27px;
+	height: 37px;
 	margin-top: 2px;
 	padding-left: 40px;
-	padding-top: 10px;
+	display: table;
+}
+
+.centered {
+display: table-cell; vertical-align: middle;
 }
 
 .main-hand {
@@ -137,8 +141,6 @@ hr {
 
 .spec-weapon {
 	background-image: url('../images/icons/spec-weapon.png');
-	padding-top: 5px;
-	height: 22px;
 }
 
 .main-hand-switch {
