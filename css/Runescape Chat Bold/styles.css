@@ -1,8 +1,0 @@
-
-@font-face {
-  font-family: 'MyFontRegular';
-  src: url('MyFontRegular.eot?#iefix') format('embedded-opentype'),  url('MyFontRegular.otf')  format('opentype'),
-	     url('MyFontRegular.woff') format('woff'), url('MyFontRegular.ttf')  format('truetype'), url('MyFontRegular.svg#MyFontRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
