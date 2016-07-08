@@ -77,17 +77,67 @@ a:link, a:visited, a:hover, a:active {
 	margin-left: -30px;
 }
 
+.header {
+	text-align: center;
+	margin-left: 75px;
+	display: inline-block;
+}
+
+.dropdown {
+	text-align: center;
+	margin-left: 350px;
+	display: inline-block;
+	z-index: 100;
+	position: relative;
+}
+
+h1.menu {
+	font-size: 32px;
+}
+
+.dropbtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+	background-color: rgba(0,0,0,0);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b39b6b;
+    min-width: 150px;
+	text-align: left;
+	border: 1px solid black;
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 5px 7px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #c9ae78
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .page-wrap {
 	background:url('../images/bg2.jpg') repeat-y center top;
 	margin:0 auto;
 	overflow-y:hidden;
 	padding:0 50px;
 	width:815px;
-}
-
-.header {
-	text-align: center;
-	margin-left: -490px;
 }
 
 .content {
