@@ -97,6 +97,106 @@ div.kq {
 	background:url('../images/kq.png') no-repeat center top;
 }
 
+div.barrows {
+	background:url('../images/barrows.png') no-repeat center top;
+}
+
+div.zulrah {
+	background:url('../images/zulrah.png') no-repeat center top;
+}
+
+div.dks {
+	background:url('../images/dks.png') no-repeat center top;
+}
+
+div.corp {
+	background:url('../images/corp.png') no-repeat center top;
+}
+
+div.mole {
+	background:url('../images/mole.png') no-repeat center top;
+}
+
+div.graardor {
+	background:url('../images/graardor.png') no-repeat center top;
+}
+
+div.kree {
+	background:url('../images/kree.png') no-repeat center top;
+}
+
+div.zilyana {
+	background:url('../images/zilyana.png') no-repeat center top;
+}
+
+div.kdb {
+	background:url('../images/kbd.png') no-repeat center top;
+}
+
+div.elemental {
+	background:url('../images/elemental.png') no-repeat center top;
+}
+
+div.callisto {
+	background:url('../images/callisto.png') no-repeat center top;
+}
+
+div.fanatic {
+	background:url('../images/fanatic.png') no-repeat center top;
+}
+
+div.archaeologist {
+	background:url('../images/archaeologist.png') no-repeat center top;
+}
+
+div.scorpia {
+	background:url('../images/scorpia.png') no-repeat center top;
+}
+
+div.venenatis {
+	background:url('../images/venenatis.png') no-repeat center top;
+}
+
+div.vetion {
+	background:url('../images/vetion.png') no-repeat center top;
+}
+
+div.jad {
+	background:url('../images/jad.png') no-repeat center top;
+}
+
+div.nmz {
+	background:url('../images/nmz.png') no-repeat center top;
+}
+
+div.pc {
+	background:url('../images/pc.png') no-repeat center top;
+}
+
+div.ba {
+	background:url('../images/ba.png') no-repeat center top;
+}
+
+div.slayer {
+	background:url('../images/slayer.png') no-repeat center top;
+}
+
+div.kraken {
+	background:url('../images/kraken.png') no-repeat center top;
+}
+
+div.cerberus {
+	background:url('../images/cerberus.png') no-repeat center top;
+}
+
+div.sire {
+	background:url('../images/sire.png') no-repeat center top;
+}
+
+div.thermo {
+	background:url('../images/thermo.png') no-repeat center top;
+}
+
 .page-title {
 	text-align: left;
 	margin-left: 75px;
@@ -225,12 +325,12 @@ display: table-cell; vertical-align: middle;
 	background-image: url('../images/icons/main-hand.png');
 }
 
-.spec-weapon {
-	background-image: url('../images/icons/spec-weapon.png');
-}
-
 .main-hand-switch {
 	background-image: url('../images/icons/main-hand-switch.png');
+}
+
+.spec-weapon {
+	background-image: url('../images/icons/spec-weapon.png');
 }
 
 .shield {
@@ -245,36 +345,72 @@ display: table-cell; vertical-align: middle;
 	background-image: url('../images/icons/helmet.png');
 }
 
+.helmet-switch {
+	background-image: url('../images/icons/helmet-switch.png');
+}
+
 .body {
 	background-image: url('../images/icons/body.png');
+}
+
+.body-switch {
+	background-image: url('../images/icons/body-switch.png');
 }
 
 .legs {
 	background-image: url('../images/icons/legs.png');
 }
 
+.legs-switch {
+	background-image: url('../images/icons/legs-switch.png');
+}
+
 .boots {
 	background-image: url('../images/icons/boots.png');
+}
+
+.boots-switch {
+	background-image: url('../images/icons/boots-switch.png');
 }
 
 .gloves {
 	background-image: url('../images/icons/gloves.png');
 }
 
+.gloves-switch {
+	background-image: url('../images/icons/gloves-switch.png');
+}
+
 .cape {
 	background-image: url('../images/icons/cape.png');
+}
+
+.cape-switch {
+	background-image: url('../images/icons/cape-switch.png');
 }
 
 .amulet {
 	background-image: url('../images/icons/amulet.png');
 }
 
+.amulet-switch {
+	background-image: url('../images/icons/amulet-switch.png');
+}
+
 .ring {
 	background-image: url('../images/icons/ring.png');
 }
 
+.ring-switch {
+	background-image: url('../images/icons/ring-switch.png');
+}
+
 .ammo {
 	background-image: url('../images/icons/ammo.png');
+}
+
+.ammo-switch {
+	background-image: url('../images/icons/ammo-switch.png');
 }
 
 .notes > ul {
