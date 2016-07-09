@@ -68,6 +68,19 @@ a:link, a:visited, a:hover, a:active {
 	color: blue;
 }
 
+sup {
+	font-family: Arial;
+	font-size: 14px;
+	color: #0d0d0d;
+	vertical-align: 3px;
+}
+
+sup.dagger {
+	font-size: 10px;
+	vertical-align: 6px;
+	color: #191919;
+}
+
 .kril {
 	background:url('../images/kril.png') no-repeat center top;
 	height: 145px;
@@ -77,22 +90,28 @@ a:link, a:visited, a:hover, a:active {
 	margin-left: -30px;
 }
 
+.kq {
+	background:url('../images/kq.png') no-repeat center top;
+	height: 145px;
+	width: 865px;
+	top: 0px;
+	position: absolute;
+	margin-left: -30px;
+}
+
 .header {
-	text-align: center;
+	text-align: left;
 	margin-left: 75px;
 	display: inline-block;
+	width: 570px;
 }
 
 .dropdown {
 	text-align: center;
-	margin-left: 350px;
+	margin-left: 0px;
 	display: inline-block;
 	z-index: 100;
 	position: relative;
-}
-
-h1.menu {
-	font-size: 32px;
 }
 
 .dropbtn {
@@ -102,11 +121,19 @@ h1.menu {
 	background-color: rgba(0,0,0,0);
 }
 
+button {
+	outline: none;
+}
+
+h1.menu {
+	font-size: 32px;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #b39b6b;
-    min-width: 150px;
+    min-width: 180px;
 	text-align: left;
 	border: 1px solid black;
 	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
@@ -117,9 +144,20 @@ h1.menu {
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 5px 7px;
+    padding: 5px 7px 5px 12px;
     text-decoration: none;
     display: block;
+}
+
+/* Group titles inside the dropdown */
+.dropdown-content div {
+    color: black;
+	padding: 5px 7px 0px 7px;
+    text-decoration: none;
+    display: block;
+	border-top: 1px solid #3e3529;
+	font-size: 14px;
+	font-family: "Runescape Chat Bold";
 }
 
 /* Change color of dropdown links on hover */
