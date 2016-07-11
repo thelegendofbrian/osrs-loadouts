@@ -31,6 +31,38 @@ body {
 	margin-bottom: 0px;
 }
 
+.boss-box {
+	display: inline-block;
+	width: 100px;
+	height: 140px;
+	margin: 10px;
+	border: 1px solid #4f4830;
+	background-color: rgba(139, 126, 84, 0.3);
+	text-align: center;
+	padding: 5px;
+	vertical-align: top;
+	-webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+.boss-box > a > img {
+	width: 100px;
+	height: 100px;
+}
+
+.boss-box > a {
+	text-decoration: none;
+}
+
+.boss-box > a > span {
+	display: table-cell;
+	margin: 0px;
+	color: black;
+	height: 40px;
+	vertical-align: middle;
+}
+
 h1 {
 	color: #ded6ab;
 	font-family: 'Runescape Large';
@@ -57,6 +89,11 @@ h3 {
 	font-family: 'Runescape Chat Bold';
 	font-size: 20px;
 	font-weight: normal;
+}
+
+h3.index {
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
 .anchorjs-link {
