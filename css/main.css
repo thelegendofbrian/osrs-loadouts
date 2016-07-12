@@ -75,6 +75,11 @@ h1 {
 	margin-bottom: 10px;
 }
 
+h1 > a {
+	color: #ded6ab !important;
+	text-decoration: none;
+}
+
 h2 {
 	color: black;
 	font-family: 'Runescape Large';
@@ -232,6 +237,10 @@ div.sire {
 
 div.thermo {
 	background:url('../images/thermo.png') no-repeat center top;
+}
+
+div.gorilla {
+	background:url('../images/gorilla.png') no-repeat center top;
 }
 
 .page-title {
