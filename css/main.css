@@ -344,6 +344,61 @@ h1.menu {
 	top:auto;
 }
 
+table {
+	margin-left: 15px;
+	border-collapse: collapse;
+}
+
+th {
+	font-family: "Runescape Chat Bold";
+	font-weight: normal;
+	width: 30px;
+	border-collapse: collapse;
+	border: 1px solid #4d422c;
+}
+
+th:first-of-type {
+	width: 115px;
+	text-align: left;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+th:last-of-type {
+	width: 350px;
+	text-align: left;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+td {
+	text-align: center;
+	border: 1px solid #4d422c;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+td:first-of-type {
+	text-align: left;
+}
+
+td:last-of-type {
+	text-align: left;
+}
+
+tr:nth-child(even) {
+	background: rgba(170,147,99,0.5);
+}
+
+tr:nth-child(odd) {
+	background: rgba(133,115,78,0.5);
+}
+
+.table-notes {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
 hr {
 	border: 1px solid black;
 	border-bottom: 0px;
@@ -466,10 +521,17 @@ display: table-cell; vertical-align: middle;
 	margin-bottom: 5px;
 }
 
-.bottom-marg {
-	margin-bottom: 35px;
-}
-
 .top-marg {
 	margin-top: 90px;
+}
+
+.bottom-marg {
+	margin-bottom: 15px;
+}
+
+.footer {
+	color: gray;
+	vertical-align: bottom;
+	text-align: center;
+	margin-bottom: 10px;
 }
